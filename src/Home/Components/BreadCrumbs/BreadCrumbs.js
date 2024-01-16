@@ -2,11 +2,11 @@ import React from 'react';
 
 const BreadCrumbs = () => {
     return (
-        <div className="mx-7 text-sm breadcrumbs">
-            <ul>
+        <div className="breadcrumbs my-5">
+            <ul className='text-[18px]'>
                 <li>
                     <a href='/'>
-                        <img className='w-3' src="https://i.ibb.co/9bw39Dd/home-1392-svgrepo-com.png" alt="" />
+                        <img className='w-5' src="https://i.ibb.co/9bw39Dd/home-1392-svgrepo-com.png" alt="" />
                     </a>
                 </li>
                 <li><a href='#card'>Flashcard</a></li>
