@@ -22,7 +22,7 @@ const Menu = () => {
                     <a
                         href={mi.dest}
                         onClick={() => handleActive(mi.id)}
-                        className={`inline-block px-4 py-2 text-[15px] ${activeLinkId === mi.id ? 'text-[#072B6B] border-b-2 border-[#072B6B] font-semibold' : 'text-black'
+                        className={`inline-block px-4 py-2 text-xs lg:text-[15px] ${activeLinkId === mi.id ? 'text-[#072B6B] border-b-2 border-[#072B6B] font-semibold' : 'text-black'
                             }`}
                     >
                         {mi.name}

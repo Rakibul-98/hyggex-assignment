@@ -14,19 +14,20 @@ const FAQ = () => {
         },
         
     ]
+
     return (
         <div className='py-16'>
-            <h2 className='text-5xl font-bold text-[#072B6B] pb-2'>FAQ</h2>
-            <div className='w-8/12'>
+            <h2 className='text-3xl lg:text-5xl font-bold text-[#072B6B] pb-2'>FAQ</h2>
+            <div className='w-10/12 lg:w-8/12'>
                 {
                     queries.map((faq)=>
                     <div key={faq.id} x-data="{ open: false }" className="collapse collapse-arrow border border-[#072B6B] my-5">
                     <input type="radio" name="my-accordion-2" />
-                    <div className="collapse-title text-lg font-medium">
+                    <div className="collapse-title text-md lg:text-lg font-medium">
                         {faq.ques}
                     </div>
                     <div className="collapse-content">
-                        <p>{faq.ans} </p>
+                        <p className='text-sm lg:text-md'>{faq.ans} </p>
                     </div>
                 </div>
                     )

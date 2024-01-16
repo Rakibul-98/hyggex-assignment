@@ -6,7 +6,7 @@ import FAQ from './FAQ/FAQ';
 
 const Home = () => {
     return (
-        <div>
+        <div className='mx-15 lg:mx-20'>
             <NavBar />
             <div className='mx-7'>
                 <BreadCrumbs />

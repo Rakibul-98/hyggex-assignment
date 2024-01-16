@@ -3,10 +3,10 @@ import React from 'react';
 const BreadCrumbs = () => {
     return (
         <div className="breadcrumbs my-5">
-            <ul className='text-[18px]'>
+            <ul className='text-sm lg:text-[18px]'>
                 <li>
                     <a href='/'>
-                        <img className='w-5' src="https://i.ibb.co/9bw39Dd/home-1392-svgrepo-com.png" alt="" />
+                        <img className='w-4 lg:w-5' src="https://i.ibb.co/9bw39Dd/home-1392-svgrepo-com.png" alt="" />
                     </a>
                 </li>
                 <li><a href='#card'>Flashcard</a></li>
