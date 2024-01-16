@@ -16,7 +16,7 @@ const Menu = () => {
     };
 
     return (
-        <div className="navbar justify-center">
+        <div className="navbar justify-center mb-2">
             {menuItems.map((mi) => (
                 <li key={mi.id}>
                     <a
